@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Order"
+        android:layout_gravity="center"
+        android:textSize="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/pizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/pizza_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:text="350/-"
+        android:textSize="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/burger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burger"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/burger_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100/-"
+            android:textSize="25dp"
+            android:layout_marginLeft="190dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/cold_drink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cold Drink"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/cold_drink_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50/-"
+            android:textSize="25dp"
+            android:layout_marginLeft="170dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/order_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Item Or Bill"
+        android:textSize="25dp"
+        android:backgroundTint="#2F2F2F"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/bill_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
